@@ -1,0 +1,115 @@
+* { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+    
+  }
+  body {
+    font-family: Circular, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  nav { 
+    height: 80px; 
+    background-color: black; 
+    opacity: 0.7;
+    overflow: hidden;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+  }
+  header { 
+    height: 805px; 
+    background: linear-gradient(#f037a5 -60%,#fae62d 140%);
+  }
+  footer { 
+    height: 538px; 
+    background-color: black; 
+  }
+  .container {
+    height: inherit; /* get parent height */
+    width: 1170px;   /* add 970px for smaller screen */
+    margin: 0 auto;
+    padding: 0 15px;
+    display: flex;
+  }
+  .center-everything {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+  
+  }
+  
+  .spotify-logo {
+    width: 132px;
+    height: 40px;
+    margin: 20px 0; 
+  }
+  nav ul {
+    width: 484px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: auto;
+  }
+  nav a {
+    color: white;
+    text-decoration: none;
+  }
+  nav li {
+    font-weight: bold;
+    display: inline; 
+    color: white;
+    margin: 15px; 
+  }
+  nav a:hover {
+    color: #1db954;
+  }
+  .hero-img {
+    height: inherit;
+    margin: 0 auto;
+    background-image: url(img/hero-burst.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  #title {
+    width: inherit;
+    color: white;
+    text-align: center;
+    font-size: 80px;
+    font-weight: 900;
+    letter-spacing: -.04em;
+    line-height: 1.15;
+    margin-bottom: 20px;
+  }
+  #text {
+    width: inherit;
+    color: white;
+    text-align: center;
+}
+
+  .btn-spotify {
+    width: 260px;
+    margin: 0 auto;
+    color: white;
+    background-color: #1db954;
+    padding: 18px 42px 18px;
+    border: 0px;
+    border-radius: 500px;
+    margin-top: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1;
+    letter-spacing: 2px;
+    transition-duration: .3s;
+  }
+  .btn-spotify:hover {
+    cursor: pointer;
+    background-color: #1ed760;
+  }
+  li {
+    list-style-type: none;
+}   
